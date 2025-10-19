@@ -46,9 +46,10 @@ class _ChatRoomState extends State<ChatRoom> {
                       child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: ListTile(
-                              leading: const CircleAvatar(
-                                radius: 12,
-                                backgroundImage: AssetImage('assets/ruben.png'),
+                              leading: const Text(
+                                'Rúben',
+                                style: TextStyle(
+                                    fontFamily: 'Roboto', fontSize: 8),
                               ),
                               title: Text(
                                 messages[index],
